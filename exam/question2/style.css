@@ -1,0 +1,21 @@
+#main-container{
+	float: left;
+	width: 100%;
+}
+#container-1{
+	float: left;
+	width: 33.3%;
+	background-color: yellow;
+	margin: 0;
+	padding:0;
+}
+#container-2{
+	float: left;
+	width: 33.3%;
+	background-color: green;
+}
+#container-3{
+	float: right;
+	width: 33.3%;
+	background-color: red;
+}

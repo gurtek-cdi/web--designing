@@ -1,0 +1,29 @@
+#container{
+	float: left;
+	width: 960px;
+	height: 250px;
+	background-color: red;
+}
+#col-1,#col-2,#col-3{
+	width: 33.3%;
+	height: 230px;
+	float: left;
+}
+#col-1{
+	background-color: blue;
+}
+#col-2{
+	background-color: green;
+}
+#col-3{
+	background-color: brown;
+}
+@media only screen and (min-width: 960px){
+	#col-1,#col-2,#col-3 {
+		width: 100%;
+		float: left;
+	}
+	#container{
+		height: 100vh;
+	}
+}
