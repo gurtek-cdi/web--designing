@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Assign3.js"></script>
+</head>
+<body>
+    <div class="forms">
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" id="userName">
+            </div>
+            
+            <div class="form-group">
+                <label> Mobile Number</label>
+                <input type="text" class="form-control" id="userMobile">
+            </div>
+
+            <div class="form-group">
+                <label>Roll Number</label>
+                <input type="text" class="form-control" id="userRoll">
+            </div>
+
+            <div class="form-group">
+                <label> Address</label>
+                <input type="text" class="form-control" id="useraddress">
+            </div>
+            <div class="form-group">
+              <label>Email address</label>
+              <input type="email" class="form-control" id="userEmail">
+            </div>
+            
+            <button type="button" onclick="submitInfo()" class="btn btn-primary">Submit</button>
+        </form>
+    <br><br>
+    
+            <ul id="info">
+                <li>Name: </li>
+                <li>Mobile Number:</li>
+                <li>Roll Number:  </li>
+                <li>Address: </li>
+                <li>User Email: </li>
+            </ul>
+        
+    </div>
+    
+</body>
+</html>
