@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container m-5">
+        <form id="form" action="#">
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" class="form-control" id="first" placeholder="Enter first name">
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" class="form-control" id="last" placeholder="Enter last name">
+            </div>
+            <div class="form-group">
+                <label>Blood Group</label>
+                <select class="form-control" id="blood">
+                    <option value="Select your blood type">Select your blood type</option>
+                    <option>O negative</option>
+                    <option>O positive</option>
+                    <option>A negative</option>
+                    <option>A positive</option>
+                    <option>B negative</option>
+                    <option>B positive</option>
+                    <option>AB negative</option>
+                    <option>AB positive</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label>Student Id</label>
+                <input type="text" class="form-control" id="stId" placeholder="Enter your student id">
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <textarea name="" class="form-control" id="address" cols="30" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="">Do you have a car?</label>
+                <div class="form-check">
+                    <input class="form-check-input radio-btn" type="radio" name="car" id="exampleRadios1" value="Yes">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input radio-btn" type="radio" name="car" id="exampleRadios1" value="No">
+                    <label class="form-check-label" for="exampleRadios1">
+                        No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Age</label>
+                <input type="text" class="form-control" id="age">
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <select id="select"  class="form-control" id="">
+                    <option value="">Select your gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Martial Status</label>
+                <select class="form-control" id="">
+                    <option value="">Select your martial status</option>
+                    <option>Single</option>
+                    <option>Married</option>
+                    <option>Divorced</option>
+                </select>
+            </div>
+            <button type="submit" 
+           onclick=" return submitInfo()" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div class="container jumbotron m-5">
+        <ul id="informationBoard"></ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
