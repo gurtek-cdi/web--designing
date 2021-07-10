@@ -1,0 +1,38 @@
+[
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007e",
+        "imageName": "activa.png",
+        "bookName": "Yogurt",
+        "amazonUrl": "https://www.maxi.ca/"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007e",
+        "imageName": "dove.png",
+        "bookName": "Dove Men",
+        "amazonUrl": "https://www.maxi.ca/"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007e",
+        "imageName": "lettuce.png",
+        "bookName": "Lettuce",
+        "amazonUrl": "https://www.maxi.ca/"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007e",
+        "imageName": "milk.png",
+        "bookName": "Milk",
+        "amazonUrl": "https://www.maxi.ca/"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007e",
+        "imageName": "tomatoes.png",
+        "bookName": "Tomatoes",
+        "amazonUrl": "https://www.maxi.ca/"
+    },
+    {
+        "id": "e2d20351-c6a8-49f2-b75f-93cf039b007e",
+        "imageName": "soap.png",
+        "bookName": "Hand Soap",
+        "amazonUrl": "https://www.maxi.ca/"
+    }
+]
