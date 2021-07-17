@@ -5,10 +5,10 @@ $(document).ready(function() {
 function registerUser(){
     $("#register").click(function(event){
         event.preventDefault();
-        var username = $("#floatingUsername").val();
-        var password = $("#floatingPassword").val();
-        $("#floatingUsername").val('');
-        $("#floatingPassword").val('');
+        var username = $("#registerInput").val();
+        var password = $("#registerPassword").val();
+        $("#registerInput").val('');
+        $("#registerPassword").val('');
         var url = "http://localhost:5555/register/";
         var data = {"username": username, "password": password};
         if (username == '' || password == ''){
